@@ -13,7 +13,7 @@ def home(request):
       """
       http://127.0.0.1:8000/で表示されるページ
       """
-      return render(request, 'chatbot/home.html')
+      return render(request, 'home.html')
 
 def reply(question):
 
